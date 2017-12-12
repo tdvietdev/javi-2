@@ -24,6 +24,7 @@ $('button#translate').click( function (e) {
                 text : $('textarea#input').val(),
                 input : $('button#btn-input').val(),
                 token : grecaptcha.getResponse(),
+                segmentor : "false"
             },
             success : function (result){
                 $('textarea#output').val(result);

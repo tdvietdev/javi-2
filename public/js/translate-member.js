@@ -15,6 +15,7 @@ $('button#translate').click( function (e) {
             data : {
                 text : $('textarea#input').val(),
                 input : $('button#btn-input').val(),
+                segmentor : $('input[type=checkbox]').prop('checked')
 
             },
             success : function (result){
