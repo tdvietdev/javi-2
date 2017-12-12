@@ -24,7 +24,6 @@ class Translate extends Controller
         $transport = new Transport('http://112.137.130.53:8080/RPC2');
         $client = new Client($transport);
 
-
         $list_paragraph = array();
         if ($request->segmentor == "true") {
             $mListParagraph = explode("\n", $text);

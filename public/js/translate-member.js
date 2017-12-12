@@ -28,3 +28,4 @@ $('button#translate').click( function (e) {
     
 
 });
+
